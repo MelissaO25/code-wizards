@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left ;
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navlogo{
+    display: flex;
+    align-items: center;
+}
+
+.navlogo img{
+    margin-right: 10px;
+    height: 40px;
+}
+
+nav ul{
+    list-style: none;   
+    display: flex;
+    padding: 0;
+    gap: 20px;
+}
+
+nav li{
+    display: inline;
+}
+ 
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.sign{
+    background-color: aqua;
+    padding: 8px 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
