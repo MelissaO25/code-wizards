@@ -49,3 +49,83 @@ nav a{
     border-radius: 5px;
     
 }
+
+.hero{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.hero-image{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero-content h1{
+    color: white;
+}
+
+.hero-content p{
+    color: white;
+}
+
+.hero-content a{
+    color: white;
+}
+
+.btn{
+    color: black;
+    background-color: #ffcc00;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.form-container{
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h2{
+    color: black;
+}
+
+.form-start{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+input, select, textarea{
+    padding: 8px;
+    margin: 5px 0px ;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100% ;
+}
+
+.radio-buttons{
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-around;
+}
